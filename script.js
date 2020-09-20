@@ -116,7 +116,7 @@ function getPasswordOptions() {
 
     //variable to store boolean regarding the inclusion of special characters
     var hasSpecialCharacters = confirm(
-      'Click OK to confirm including special characters.'
+      'Click OK if you would like to include special characters.'
     );
 
     //variable to store boolean regarding the inclusion of numeric characters
@@ -126,12 +126,12 @@ function getPasswordOptions() {
 
     //variable to store boolean regarding the inclusion of lower-cased characters
     var hasLowerCasedCharacters = confirm(
-      'Click OK to confirm including lowercase characters.'
+      'Click OK if you would like to include lowercase characters.'
     );
       
     //variable to store boolean regarding the inclusion of upper-cased characters
     var hasUpperCasedCharacters = confirm(
-      'Click OK to confirm including uppercase characters.'
+      'Click OK if you would like to include uppercase characters.'
     );
 
     //conditional statement to check if user has confirmed upper/lowercase characters. Prompts end if this evaluates false
